@@ -7,7 +7,7 @@ def crescente(t):
             return True
     return False
 
-def crescente(t):
+def crescente_fixed(t):
     #fixed code
     for i in range(len(t)-1):
         if t[i+1]<=t[i]:
